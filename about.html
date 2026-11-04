@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About | Md Al Shaharia Hossain</title>
+<meta name="description" content="Portfolio of Md Al Shaharia Hossain: business development, marketing and web development professional aspiring to operations, sales and marketing management.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-page="about.html">
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a href="index.html" class="brand" aria-label="Home"><span class="brand-mark">MH</span><span class="brand-text">Al Shaharia Hossain</span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav class="nav" id="nav"><a href="index.html">Home</a><a href="about.html" class="active">About</a><a href="services.html">Services</a><a href="education.html">Education & Resume</a><a href="projects.html">Projects</a><a href="contact.html">Contact</a></nav>
+  </div>
+</header>
+<main>
+
+<section class="page-hero container reveal">
+  <span class="eyebrow">About me</span>
+  <h1>Business-minded, technically grounded</h1>
+</section>
+
+<section class="container about-grid">
+  <aside class="about-side reveal">
+    <div class="photo photo-md">
+  <span class="initials">MH</span>
+  <img src="images/profile.jpg" alt="Portrait of Md Al Shaharia Hossain" onerror="this.remove()">
+</div>
+    <div class="card mini">
+      <h3>Quick facts</h3>
+      <ul class="facts">
+        <li><span>Name</span><b>Md Al Shaharia Hossain</b></li>
+        <li><span>Degree</span><b>BSc in CSE, 2026</b></li>
+        <li><span>University</span><b>Green University of Bangladesh</b></li>
+        <li><span>Target role</span><b>Operations / Sales / Marketing Manager</b></li>
+      </ul>
+      <a class="btn btn-primary btn-block" href="contact.html">Get in touch</a>
+    </div>
+  </aside>
+
+  <div class="about-main reveal">
+    <div class="card">
+      <h2>My professional bio</h2>
+      <p>I am a Computer Science and Engineering graduate from Green University of Bangladesh with a rare mix of commercial and technical experience. My career began on the business side: I generated leads and booked appointments as a Telesales Executive at BDR Outsourced Limited, then moved into procurement, market analysis, quotation and bidding as a Business Development Executive at Block B Solutions, where I worked on government and non-government tenders and built strong relationships with vendors.</p>
+      <p>I also worked as a Marketing Executive on the 32-day RapidPass project, where I helped promote the product to its audience. Together, these roles taught me how to understand customers, price competitively, negotiate with suppliers and communicate value clearly.</p>
+      <p>On the technical side, I have authored research work using machine learning and deep learning, and built university projects in C, Java, HTML, CSS and PHP, including a Government Services Web Application and UI/UX prototypes. This background lets me read data, understand systems and work comfortably with technical teams.</p>
+      <p>Today I am looking to grow into a managerial role in <b>operations management, sales or marketing</b>, where I can combine process thinking, market insight and data-driven decisions to help a team perform better.</p>
+    </div>
+
+    <div class="grid-2">
+      <div class="card">
+        <h3>Core strengths</h3>
+        <ul class="tick">
+          <li>Lead generation and appointment setting</li>
+          <li>Procurement, quotations and tender bidding</li>
+          <li>Market analysis and vendor management</li>
+          <li>Campaign promotion and marketing execution</li>
+          <li>Data-driven decision making</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Technical toolkit</h3>
+        <div class="tags">
+          <span>C</span><span>Java</span><span>PHP</span><span>MySQL</span><span>HTML</span><span>CSS</span><span>Machine Learning</span><span>Deep Learning</span><span>UI/UX</span>
+        </div>
+        <p class="muted small">Research papers and academic projects completed during my university years.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>My journey</h3>
+      <ol class="mini-timeline">
+        <li><b>2018 &ndash; 2020</b><span>SSC and HSC in Science, with strong GPAs</span></li>
+        <li><b>2022 &ndash; 2026</b><span>BSc in CSE, plus student leadership as Joint General Secretary</span></li>
+        <li><b>Professional</b><span>Telesales, Business Development and Marketing experience</span></li>
+        <li><b>Next</b><span>Managing operations, sales or marketing</span></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<section class="container reveal">
+  <figure class="quote-box">
+    <div class="quote-icon">&ldquo;</div>
+    <blockquote id="quoteText">Loading inspiration...</blockquote>
+    <figcaption id="quoteAuthor"></figcaption>
+    <button class="btn btn-ghost btn-sm" id="newQuote" type="button">New quote &#8635;</button>
+  </figure>
+</section>
+
+</main>
+<footer class="site-footer">
+  <div class="container footer-wrap">
+    <p>&copy; <span id="year">2026</span> Md Al Shaharia Hossain. All rights reserved.</p>
+    <div class="footer-links">
+      <a href="https://www.linkedin.com/in/md-al-shaharia-hossain" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/Rimon0287" target="_blank" rel="noopener">GitHub</a>
+      <a href="mailto:rimonhassain4087@gmail.com">Email</a>
+    </div>
+  </div>
+</footer>
+<button class="to-top" id="toTop" aria-label="Back to top">&uarr;</button>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<div class="modal" id="modal" aria-hidden="true">
+  <div class="modal-backdrop" data-close></div>
+  <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <button class="modal-close" data-close aria-label="Close">&times;</button>
+    <div id="modalBody"></div>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Projects | Md Al Shaharia Hossain</title>
+<meta name="description" content="Portfolio of Md Al Shaharia Hossain: business development, marketing and web development professional aspiring to operations, sales and marketing management.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-page="projects.html">
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a href="index.html" class="brand" aria-label="Home"><span class="brand-mark">MH</span><span class="brand-text">Al Shaharia Hossain</span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav class="nav" id="nav"><a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="education.html">Education & Resume</a><a href="projects.html" class="active">Projects</a><a href="contact.html">Contact</a></nav>
+  </div>
+</header>
+<main>
+
+<section class="page-hero container reveal">
+  <span class="eyebrow">Projects</span>
+  <h1>Selected work</h1>
+  <p class="sub">Projects built during my university years. Expand a card for more.</p>
+</section>
+
+<section class="container section tight reveal">
+  <div class="grid-2 projects">
+    <article class="card project">
+      <div class="proj-top"><span class="icon">&#127963;</span><span class="badge">Web Application</span></div>
+      <h3>Government Services Web Application</h3>
+      <p>Digitised public services such as NID applications, birth and death certificates, and request tracking.</p>
+      <div class="tags"><span>PHP</span><span>MySQL</span><span>HTML</span><span>CSS</span></div>
+      <div class="expand" hidden>
+        <h4>Highlights</h4>
+        <ul class="tick">
+          <li>Online application flows for NID and birth/death certificates</li>
+          <li>Request tracking so citizens can follow their application status</li>
+          <li>Database-driven back end built with PHP and MySQL</li>
+          <li>Clean, form-focused HTML and CSS interface</li>
+        </ul>
+      </div>
+      <div class="btn-row">
+        <button class="btn btn-outline btn-sm toggle-more" type="button" aria-expanded="false">Show details</button>
+        <a class="btn btn-ghost btn-sm" href="https://github.com/Rimon0287" target="_blank" rel="noopener">View on GitHub</a>
+      </div>
+    </article>
+
+    <article class="card project">
+      <div class="proj-top"><span class="icon">&#127912;</span><span class="badge">Design</span></div>
+      <h3>UI/UX Design Prototypes</h3>
+      <p>Interactive prototypes for apps and websites, focused on user-centred design and accessibility.</p>
+      <div class="tags"><span>UI/UX</span><span>Prototyping</span><span>Accessibility</span></div>
+      <div class="expand" hidden>
+        <h4>Highlights</h4>
+        <ul class="tick">
+          <li>User-centred approach from flow to final screens</li>
+          <li>Interactive prototypes that can be tested with real users</li>
+          <li>Accessibility considered in colour, layout and navigation</li>
+          <li>Iterative refinement based on feedback</li>
+        </ul>
+      </div>
+      <div class="btn-row">
+        <button class="btn btn-outline btn-sm toggle-more" type="button" aria-expanded="false">Show details</button>
+        <a class="btn btn-ghost btn-sm" href="https://github.com/Rimon0287" target="_blank" rel="noopener">View on GitHub</a>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="container section tight reveal">
+  <div class="cta-box">
+    <div>
+      <h2>More on GitHub</h2>
+      <p>Additional academic work in C, Java and web technologies, along with machine learning and deep learning research, is available on my GitHub profile.</p>
+    </div>
+    <div class="btn-row">
+      <a class="btn btn-primary" href="https://github.com/Rimon0287" target="_blank" rel="noopener">Open GitHub</a>
+    </div>
+  </div>
+</section>
+
+<section class="container reveal">
+  <figure class="quote-box">
+    <div class="quote-icon">&ldquo;</div>
+    <blockquote id="quoteText">Loading inspiration...</blockquote>
+    <figcaption id="quoteAuthor"></figcaption>
+    <button class="btn btn-ghost btn-sm" id="newQuote" type="button">New quote &#8635;</button>
+  </figure>
+</section>
+
+</main>
+<footer class="site-footer">
+  <div class="container footer-wrap">
+    <p>&copy; <span id="year">2026</span> Md Al Shaharia Hossain. All rights reserved.</p>
+    <div class="footer-links">
+      <a href="https://www.linkedin.com/in/md-al-shaharia-hossain" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/Rimon0287" target="_blank" rel="noopener">GitHub</a>
+      <a href="mailto:rimonhassain4087@gmail.com">Email</a>
+    </div>
+  </div>
+</footer>
+<button class="to-top" id="toTop" aria-label="Back to top">&uarr;</button>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<div class="modal" id="modal" aria-hidden="true">
+  <div class="modal-backdrop" data-close></div>
+  <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <button class="modal-close" data-close aria-label="Close">&times;</button>
+    <div id="modalBody"></div>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

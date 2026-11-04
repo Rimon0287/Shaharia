@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact | Md Al Shaharia Hossain</title>
+<meta name="description" content="Portfolio of Md Al Shaharia Hossain: business development, marketing and web development professional aspiring to operations, sales and marketing management.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-page="contact.html">
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a href="index.html" class="brand" aria-label="Home"><span class="brand-mark">MH</span><span class="brand-text">Al Shaharia Hossain</span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav class="nav" id="nav"><a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="education.html">Education & Resume</a><a href="projects.html">Projects</a><a href="contact.html" class="active">Contact</a></nav>
+  </div>
+</header>
+<main>
+
+<section class="page-hero container reveal">
+  <span class="eyebrow">Contact</span>
+  <h1>Let's work together</h1>
+  <p class="sub">Choose whichever way is easiest for you.</p>
+</section>
+
+<section class="container section tight contact-grid reveal">
+  <div class="contact-cards">
+    <article class="card contact-card">
+      <div class="icon">&#9993;</div>
+      <div class="cc-body"><h3>Email</h3><p>rimonhassain4087@gmail.com</p></div>
+      <div class="cc-actions">
+        <a class="btn btn-primary btn-sm" href="mailto:rimonhassain4087@gmail.com">Send email</a>
+        <button class="btn btn-ghost btn-sm" type="button" data-copy="rimonhassain4087@gmail.com">Copy</button>
+      </div>
+    </article>
+    <article class="card contact-card">
+      <div class="icon">&#128172;</div>
+      <div class="cc-body"><h3>WhatsApp</h3><p>01709010454</p></div>
+      <div class="cc-actions">
+        <a class="btn btn-primary btn-sm" href="https://wa.me/8801709010454" target="_blank" rel="noopener">Chat now</a>
+        <button class="btn btn-ghost btn-sm" type="button" data-copy="01709010454">Copy</button>
+      </div>
+    </article>
+    <article class="card contact-card">
+      <div class="icon">in</div>
+      <div class="cc-body"><h3>LinkedIn</h3><p>md-al-shaharia-hossain</p></div>
+      <div class="cc-actions">
+        <a class="btn btn-primary btn-sm" href="https://www.linkedin.com/in/md-al-shaharia-hossain" target="_blank" rel="noopener">View profile</a>
+        <button class="btn btn-ghost btn-sm" type="button" data-copy="https://www.linkedin.com/in/md-al-shaharia-hossain">Copy</button>
+      </div>
+    </article>
+    <article class="card contact-card">
+      <div class="icon">&lt;/&gt;</div>
+      <div class="cc-body"><h3>GitHub</h3><p>github.com/Rimon0287</p></div>
+      <div class="cc-actions">
+        <a class="btn btn-primary btn-sm" href="https://github.com/Rimon0287" target="_blank" rel="noopener">View profile</a>
+        <button class="btn btn-ghost btn-sm" type="button" data-copy="https://github.com/Rimon0287">Copy</button>
+      </div>
+    </article>
+  </div>
+
+  <form class="card form" id="contactForm" novalidate>
+    <h3>Send a message</h3>
+    <p class="muted small">Your message opens in your email app or WhatsApp, ready to send.</p>
+    <label>Your name<input type="text" id="fName" placeholder="Jane Doe" required></label>
+    <label>Your email<input type="email" id="fEmail" placeholder="jane@company.com" required></label>
+    <label>Subject<input type="text" id="fSubject" placeholder="Opportunity discussion"></label>
+    <label>Message<textarea id="fMessage" rows="5" placeholder="How can I help?" required></textarea></label>
+    <div class="btn-row">
+      <button class="btn btn-primary" type="submit" data-mode="email">Send via Email</button>
+      <button class="btn btn-outline" type="button" id="sendWa">Send via WhatsApp</button>
+    </div>
+    <p class="form-error" id="formError" role="alert"></p>
+  </form>
+</section>
+
+<section class="container reveal">
+  <figure class="quote-box">
+    <div class="quote-icon">&ldquo;</div>
+    <blockquote id="quoteText">Loading inspiration...</blockquote>
+    <figcaption id="quoteAuthor"></figcaption>
+    <button class="btn btn-ghost btn-sm" id="newQuote" type="button">New quote &#8635;</button>
+  </figure>
+</section>
+
+</main>
+<footer class="site-footer">
+  <div class="container footer-wrap">
+    <p>&copy; <span id="year">2026</span> Md Al Shaharia Hossain. All rights reserved.</p>
+    <div class="footer-links">
+      <a href="https://www.linkedin.com/in/md-al-shaharia-hossain" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/Rimon0287" target="_blank" rel="noopener">GitHub</a>
+      <a href="mailto:rimonhassain4087@gmail.com">Email</a>
+    </div>
+  </div>
+</footer>
+<button class="to-top" id="toTop" aria-label="Back to top">&uarr;</button>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<div class="modal" id="modal" aria-hidden="true">
+  <div class="modal-backdrop" data-close></div>
+  <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <button class="modal-close" data-close aria-label="Close">&times;</button>
+    <div id="modalBody"></div>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
